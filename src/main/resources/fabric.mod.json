@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "jukebox_action_bar_fix",
+	"version": "${version}",
+	"name": "Jukebox Action Bar Fix",
+	"description": "Fixes a bug with the jukebox action bar where the colours are wrong. Adds various settings for the action bar and adds the option to make all action bars coloured.",
+	"authors": [
+		"Loedje"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/jukebox-action-bar-fix",
+		"sources": "https://github.com/Loedje/jukebox_action_bar_fix"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/jukebox_action_bar_fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": ["loedje.jukebox_action_bar_fix.JukeboxActionBarFix"],
+		"modmenu": [ "loedje.jukebox_action_bar_fix.ModMenuApiImplementation" ]
+	},
+	"mixins": [
+		{
+			"config": "jukebox_action_bar_fix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
