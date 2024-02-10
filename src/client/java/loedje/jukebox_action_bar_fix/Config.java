@@ -8,7 +8,7 @@ import java.io.*;
 import java.lang.reflect.Modifier;
 
 public class Config {
-	public static final File FILE = FabricLoader.getInstance().getConfigDir().resolve("jukebox_action_bar_fix.client.mixins.json").toFile();
+	public static final File FILE = FabricLoader.getInstance().getConfigDir().resolve("jukebox_action_bar_fix.json").toFile();
 	// Settings
 	private boolean everythingTinted = false;
 	private boolean vibrantColors = false;

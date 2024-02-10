@@ -20,7 +20,7 @@
 	},
 	"mixins": [
 		{
-			"config": "jukebox_action_bar_fix.client.mixins.json",
+			"config": "jukebox_action_bar_fix.json",
 			"environment": "client"
 		}
 	],
