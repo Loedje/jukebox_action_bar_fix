@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "jukebox_action_bar_fix",
+	"version": "${version}",
+	"name": "jukebox_action_bar_fix",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jukebox_action_bar_fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"loedje.jukebox.Jukebox_action_bar_fix"
+		],
+		"client": [
+			"loedje.jukebox.Jukebox_action_bar_fixClient"
+		]
+	},
+	"mixins": [
+		"jukebox_action_bar_fix.mixins.json",
+		{
+			"config": "jukebox_action_bar_fix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
