@@ -1,9 +1,10 @@
 {
 	"required": true,
-	"package": "loedje.jukebox.mixin.client",
+	"package": "loedje.jukebox_action_bar_fix.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"EverythingTinted",
+		"HueFix"
 	],
 	"injectors": {
 		"defaultRequire": 1
