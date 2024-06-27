@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "jukebox_action_bar_fix",
-	"version": "2",
+	"version": "3",
 	"name": "Jukebox Action Bar Fix",
 	"description": "Fixes a bug with the jukebox action bar where the colours are wrong. Adds various settings for the action bar and adds the option to make all action bars coloured.",
 	"authors": [
@@ -25,8 +25,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.15.10",
-		"minecraft": "~1.20.5",
+		"fabricloader": ">=0.15.11",
+		"minecraft": "1.21.x",
 		"java": ">=21"
 	},
 	"suggests": {
